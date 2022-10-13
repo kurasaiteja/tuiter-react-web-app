@@ -1,66 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-   <meta charset="UTF-8">
-   <title>Home</title>
+    <meta charset="UTF-8">
+    <title>Home</title>
 </head>
 <body>
-    <a href="navigation.html">Back</a>
-    <h1>Tuiter</h1>
-    <h2>Home</h2>
-    <img src="download.jpeg" height="48" width="48" />
-    <br>
-    <textarea cols="20" rows="3" placeholder="What's happening"></textarea>
-    <br>
-    <br>
-    <select>
-        <option value="EVERYONE" default>Everyone can reply</option>
-        <option value="FOLLOWING">
-            People you follow</option>
-        <option value="MENTIONED">Only people you mention</option>
-     </select>
-     <br>
-     <hr>
-    <button>Choose a file</button>
-    <span>No file chosen</span>
-    <button>Tuit</button>
-    <hr>
-    <ul>
-        <li>
-            <a href="topic.html">Topic 123</a>
-            <br>
-            <img src="download.jpeg" height="48" width="48" />
-            <a href="profile.html">Saiteja</a>
-            <span>@saiteja - 2h</span>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>
-               when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap<br>
-               into electronic typesetting, remaining essentially unchanged.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an<br>
-               of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining <br>
-               essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop <br>
-               publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <a href="reply.html">Reply</a> <span>123</span>
-            <a href="retuit.html">Retuit</a> <span>234</span>
-            <a href="like.html">Like</a> <span>345</span>
-            <a href="share.html">Share</a>
-        </li>
+<a href="navigation.html">Back</a>
+<h1>Tuiter</h1>
+<h2>Home</h2>
+<img src="profile_pic.jpg" width="48px" height="48px"/>
+<br>
+<textarea placeholder="What's happening?" id="post_tuits"></textarea>
+<br>
+<select>
+    <option value="EVERYONE" selected>Every one can reply</option>
+    <option value="FOLLOWING">People you follow</option>
+    <option value="MENTIONED">Only people you mention</option>
+</select>
+<br>
+<hr>
+<input type="file" id="img_upload"/><button>Tuit</button>
+<hr>
+<ul>
+    <li>
+        <p>
+        <a href="./topic.html">Topic 123</a>
         <br>
+        <img src="sriker_infi.jpeg" width="48px" height="48px"/>
+        <a href="./profile.html">Sriker</a>@Sriker-3h
+        <p>
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id suscipit ligula, et finibus justo. In id mauris at enim efficitur porta. Donec nisl quam, scelerisque vitae convallis id, molestie vel nulla. Integer sollicitudin quam eget hendrerit elementum. Phasellus vestibulum imperdiet venenatis. Sed maximus aliquet metus, id porta massa accumsan ac. In a ipsum vehicula, varius lectus sit amet, vehicula turpis. Vivamus luctus nisi dolor, eget gravida sem suscipit vel. Donec laoreet nibh quis nunc hendrerit, ac maximus velit laoreet. Nulla tempor leo ut odio bibendum mollis. Nullam vestibulum ornare massa, a viverra nulla porttitor sit amet. Integer elementum cursus diam. Etiam ultricies quam tortor, a pellentesque eros pretium ac. Ut vitae purus leo. Ut interdum odio at sapien pharetra porttitor.
+        </p>
+        <a href="reply.html">Reply</a> 123 | <a href="retuit.html">Retuit</a> 234 | <a href="like.html">Like</a> 345 | <a href="share.html">Share</a>
+        </p>
+    </li>
+    <li>
+        <p>
+        <a href="./topic.html">Topic 234</a>
         <br>
-        <li>
-            <a href="topic.html">Topic 234</a>
-            <br>
-            <img src="download.jpeg" height="48" width="48" />
-            <a href="profile.html">Kura</a>
-            <span>@kura - 3h</span>
-            <p>Lorem Ipsum is simply dummy text of the prining and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br>
-               when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap<br>
-               into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum<br>
-               passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of<br>
-               the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley<br>
-               of type and scrambled it to make a type specimen book.</p>
-            <a href="reply.html">Reply</a> <span>223</span>
-            <a href="retuit.html">Retuit</a> <span>244</span>
-            <a href="like.html">Like</a>  <span>135</span>
-            <a href="share.html">Share</a>
-        </li>
-    </ul>
+        <img src="sahit_pic.jpeg" width="48px" height="48px"/>
+        <a href="./profile.html">Sahit</a>@Sahit-4h
+        <p>
+            Phasellus mi augue, vehicula vel nibh a, rhoncus pellentesque risus. Ut leo sem, dapibus sit amet aliquet nec, aliquet vitae sem. Integer dolor quam, egestas nec euismod eleifend, sollicitudin a mi. Vestibulum dapibus porttitor hendrerit. Curabitur nec quam vel risus gravida facilisis a non massa. Nullam finibus ullamcorper eros, ac rhoncus ipsum semper maximus. Nulla ullamcorper nibh efficitur, posuere ex non, ultrices ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla interdum, nisl ac pulvinar pretium, magna urna tincidunt massa, id sollicitudin elit mauris sit amet erat. Nulla sit amet nisl euismod, tristique nulla ac, bibendum nulla. Sed lorem nisi, commodo ut velit eget, elementum vulputate ante. Cras eget massa et sem fermentum placerat vel nec quam. Curabitur lacinia fringilla magna eget luctus. Maecenas vehicula lectus sed iaculis pulvinar. Vivamus sit amet augue vehicula, fermentum est vel, tristique eros.
+        </p>
+        <a href="reply.html">Reply</a> 123 | <a href="retuit.html">Retuit</a> 234 | <a href="like.html">Like</a> 345 | <a href="share.html">Share</a>
+        </p>
+    </li>
+
+</ul>
 </body>
+</html>
