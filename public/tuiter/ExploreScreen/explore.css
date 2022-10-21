@@ -25,9 +25,9 @@
 
 body { background: black }
 
-.wd-list-group .list-group-item{
+/* .wd-list-group .list-group-item{
     background-color: #343a40;
-}
+} */
 
 .wd-nav-item{
     color: white;
@@ -78,6 +78,7 @@ body { background: black }
 
 .nav-item.active{
     background-color: rgb(114, 145, 196);
+    color: white;
 }
 
 .wd-main-content{

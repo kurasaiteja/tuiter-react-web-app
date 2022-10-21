@@ -29,8 +29,16 @@ body { background: black }
     background-color: #343a40;
 } */
 
+.wd-post-list-group .list-group-item{
+    border: 1px solid #343a40;
+}
+
+.wd-card-bg{
+    background-color: black;
+}
 .wd-nav-item{
-    color: white;
+    color: black;
+    text-decoration: none;
 }
 
 .wd-nav-bg-border{
@@ -42,7 +50,7 @@ body { background: black }
 }
 
 .wd-font-color{
-    color: white;
+    color: black;
 }
 
 .wd-search-bar-color{
@@ -59,13 +67,8 @@ body { background: black }
     border-bottom: 1px solid lightgray;
 }
 
-.wd-button-bg:hover, .wd-button-bg{
-    background-color: rgb(114, 145, 196);
-    border: none;
-}
-
 .wd-font-white{
-    color: white;
+    color: black;
 }
 
 .wd-follow-button{
@@ -78,15 +81,30 @@ body { background: black }
     color: white;
     border:none;
 }
-
+.wd-main-content{
+    background-color: #343a40;
+}
 .nav-item.active{
     background-color: rgb(114, 145, 196);
 }
-.nav-link:hover{
-    border: none;
-    color: white;
-}
-/* .wd-main-content{
+
+.wd-main-content{
     background-color: #343a40;
 
-} */
+}
+a{
+    text-decoration: none;
+}
+
+.wd-card-border{
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+.wd-card-title-border{
+    border-top:1px solid gray;
+}
+
+a{
+    text-decoration: none;
+}
