@@ -41,7 +41,7 @@ const NavigationSidebar = () => {
                     <div className={`list-group-item ${active === 'explore' ? 'active' : ''}`}>
                         <Link to="/tuiter/explore">
                             <div className="row">
-                                <i className="fa fa-hashtag fa-inverse col-xxl-2 col-xl-2"></i>
+                                <i className="fa fa-hashtag col-xxl-2 col-xl-2  wd-font-color"></i>
                                 <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
                                      style={{"bottom": "3px"}}><span className="wd-font-color">Explore</span></div>
                             </div>
@@ -51,7 +51,7 @@ const NavigationSidebar = () => {
                          style={{"border-top-width": "0px"}}>
                         <Link to="#">
                             <div className="row">
-                                <i className="fa fa-bell col-xxl-2 col-xl-2 wd-font-color"></i>
+                                <i className="fa fa-bell col-xxl-2 col-xl-2  wd-font-color"></i>
                                 <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
                                      style={{"bottom": "3px"}}><span className="wd-font-color">Notifications</span>
                                 </div>
