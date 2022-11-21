@@ -2,7 +2,7 @@ import PostSummaryItem from "./PostSummaryItem";
 import {useSelector} from "react-redux";
 
 const PostSummaryList = () => {
-    const {tuits, loading} = useSelector(
+    const {tuits} = useSelector(
         state => state.tuitsData)
     return (
         <div className="list-group wd-list-group">
