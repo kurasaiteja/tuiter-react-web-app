@@ -1,0 +1,14 @@
+{
+  "_id": 123,
+  "firstName": "Saiteja",
+  "lastName": "Kura",
+  "handle": "@kurasaiteja",
+  "profilePicture": "/images/profile-pic.jpg",
+  "bannerPicture": "/images/inspiration.jpg",
+  "bio": "Software engineer with 2-year experience in delivering end-end applications using Java and React. I love to explore new technologies and build applications that can be utilised everyday. I have done my personal projects mostly in the fields of Web Development and Data Science. I also have written 20+ articles on Medium explaining various concepts and projects of mine. ",
+  "location": "Boston, MA",
+  "dateOfBirth": "11/18/1998",
+  "dateJoined": "07/2017",
+  "followingCount": 640,
+  "followersCount": 556
+}

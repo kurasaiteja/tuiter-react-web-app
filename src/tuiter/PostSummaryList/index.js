@@ -1,16 +1,23 @@
-import  PostSummaryItem from "./PostSummaryItem";
-import posts from "./posts"
+import PostSummaryItem from "./PostSummaryItem";
+import {useSelector} from "react-redux";
+
 const PostSummaryList = () => {
+    const {tuits, loading} = useSelector(
+        state => state.tuitsData)
     return (
         <div className="list-group wd-list-group">
             {
-                posts.map(post => {
-                    return(
-                        <PostSummaryItem post={post}/>
+                tuits.map(post => {
+                    return (
+                        <PostSummaryItem
+                            key={post._id}
+                            post={post}
+                        />
                     );
                 })
             }
         </div>
-    ); }
+    );
+}
 
 export default PostSummaryList;
